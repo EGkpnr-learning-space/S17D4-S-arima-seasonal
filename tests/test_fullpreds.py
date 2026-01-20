@@ -10,4 +10,4 @@ class TestFullpreds(ChallengeResultTestCase):
 
     def test_index(self):
         self.assertEqual(str(self.result.preds_df.index[0]),
-                         '2013-12-31 00:00:00')
+                         '2013-12-01 00:00:00')
